@@ -1,3 +1,5 @@
-require 'game.rb'
-require 'players.rb'
-require 'questions.rb'
+require_relative('game.rb')
+
+
+game = Game.new
+game.start_game
